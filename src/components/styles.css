@@ -1,0 +1,54 @@
+.wrapper{
+    display: flex;
+    height: 90vh;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    background-color: whitesmoke;
+
+}
+
+.accordion{
+    width: 700px;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+}
+
+.item{
+    background-color:rosybrown;
+    margin-bottom: 10px;
+    padding: 10px 20pxpx;
+    
+}
+
+.title{
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+}
+
+.description{
+    color: whitesmoke;
+    height: auto;
+    font-size: 18px;
+}
+
+.button{
+    padding: 20px 10px;
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+    background-color: rosybrown;
+    border: 1px solid plum;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.title-logo{
+    width: 100px;
+    height: 100px;
+}
